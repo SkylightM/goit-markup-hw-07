@@ -1,0 +1,136 @@
+.container-footer{
+    width: 1600px;
+    background-color: $footerBgColor;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.page-footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    &__logo{
+        font-size: 26px;
+        line-height: 1.2;
+        color: $brandColor;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        &--second-part{
+            font-size: 26px;
+            line-height: 1.2;
+            color: $classicSecondFont;
+            font-family: "Raleway", sans-serif;
+            font-weight: 700;
+        }
+    }
+    &__address{
+        padding-top: 20px;
+        padding-bottom: 9px;
+        font-size: 14px;
+        line-height: 1.71;
+        font-weight: 400;
+        color: $classicSecondFont;
+    }
+    &__contact{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+    }
+    &__link{
+        font-size: 14px;
+        line-height: 1.14;
+        font-weight: 400;
+        color: $footerLink;
+        text-decoration: none;
+    }
+}
+.join-us{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: 72px;
+    &__title{
+        color: $joinUsTitle;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        padding-bottom: 20px;
+    }
+    &__icons{
+        display: flex;
+        gap: 10px;
+    }
+    &__instagram,
+    &__twitter,
+    &__facebook,
+    &__linkedin{
+        width: 44px;
+        height: 40px;
+        fill: $joinUsIcon;
+        background-color: $joinUsBg;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover,
+        &:focus{
+            background-color: $brandColor;
+            cursor: pointer;
+            transition-property: background-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+}
+.newsletter{
+    display: flex;
+    &__label{
+        display: flex;
+        flex-direction: column;
+        padding-top: 72px;
+        gap: 20px;
+        padding-left: 78px;
+    }
+    &__text{
+        color: $newsletterText;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.17;
+    }
+    &__input{
+        width: 358px;
+        background-color: $newsletterInputBg;
+        height: 50px;
+        border-radius: 4px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border: 1px solid $newsletterInputBorder;
+        padding-left: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        color: white;
+        &::placeholder{
+            color: $newsletterPlaceholder;
+        }
+    }
+    &__button{
+        width: 200px;
+        height: 50px;
+        margin-top: 108px;
+        margin-left: 12px;
+        background-color: $brandColor;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: transparent;
+        color: $newsletterBtn;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+}
