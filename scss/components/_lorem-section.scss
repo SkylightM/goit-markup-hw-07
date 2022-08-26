@@ -2,28 +2,18 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.lorem-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-bottom: 30px;
-    &__icon{
-        width: 270px;
-        height: 120px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: $loremBgColor;
-        border-radius: 4px;
-    }
-}
 .lorem-list{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     list-style: none;
+    &__element{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     &__text{
         font-size: 14px;
         line-height: 1.14;
@@ -38,4 +28,15 @@
             padding-top: 10px;
         }
     }
+        &__icon {
+            width: 270px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $loremBgColor;
+            border-radius: 4px;
+            padding-bottom: 30px;
+            margin: 0;
+        }
 }

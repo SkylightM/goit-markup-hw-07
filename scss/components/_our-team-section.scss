@@ -49,10 +49,7 @@
     padding-bottom: 30px;
     fill: $teamCardIcons;
     list-style: none;
-    &__instagram,
-    &__twitter,
-    &__facebook,
-    &__linkedin{
+    &__icon{
         width: 44px;
         height: 44px;
         display: flex;

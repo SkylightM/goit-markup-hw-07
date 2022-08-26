@@ -269,36 +269,6 @@ button {
     padding-bottom: 94px;
 }
 
-.lorem-icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: 30px;
-    padding-bottom: 30px;
-}
-
-.lorem-icons__icon {
-    width: 270px;
-    height: 120px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-}
-
 .lorem-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -311,6 +281,22 @@ button {
     align-items: center;
     gap: 30px;
     list-style: none;
+}
+
+.lorem-list__element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .lorem-list__text {
@@ -327,6 +313,24 @@ button {
     font-weight: 400;
     color: #757575;
     padding-top: 10px;
+}
+
+.lorem-list__icon {
+    width: 270px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    padding-bottom: 30px;
+    margin: 0;
 }
 
 .company {
@@ -479,10 +483,7 @@ button {
     list-style: none;
 }
 
-.social-icons__instagram,
-.social-icons__twitter,
-.social-icons__facebook,
-.social-icons__linkedin {
+.social-icons__icon {
     width: 44px;
     height: 44px;
     display: -webkit-box;
@@ -496,14 +497,8 @@ button {
     justify-content: center;
 }
 
-.social-icons__instagram:hover,
-.social-icons__instagram:focus,
-.social-icons__twitter:hover,
-.social-icons__twitter:focus,
-.social-icons__facebook:hover,
-.social-icons__facebook:focus,
-.social-icons__linkedin:hover,
-.social-icons__linkedin:focus {
+.social-icons__icon:hover,
+.social-icons__icon:focus {
     fill: white;
     background-color: #2196F3;
     border-radius: 50%;
@@ -1105,66 +1100,4 @@ button {
     -webkit-transition-duration: 250ms;
     -o-transition-duration: 250ms;
     transition-duration: 250ms;
-    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form__icon-check {
-    position: absolute;
-    bottom: 124px;
-    left: 54px;
-    border: 2px solid black;
-    border-radius: 2px;
-    fill: white;
-    cursor: pointer;
-    -webkit-transition-property: fill;
-    -o-transition-property: fill;
-    transition-property: fill;
-    -webkit-transition-duration: 250ms;
-    -o-transition-duration: 250ms;
-    transition-duration: 250ms;
-    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form__title {
-    position: relative;
-    cursor: pointer;
-    display: inline-block;
-    padding-left: 8px;
-    color: #757575;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    line-height: 1.71;
-}
-
-.form__link {
-    color: #2196F3;
-}
-
-.form__submit-button {
-    background-color: #2196F3;
-    color: white;
-    width: 200px;
-    height: 50px;
-    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: transparent;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
 }
