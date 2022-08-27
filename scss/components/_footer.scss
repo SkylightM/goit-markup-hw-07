@@ -1,5 +1,5 @@
 .container-footer{
-    width: 1600px;
+    width: 100%;
     background-color: $footerBgColor;
     padding-bottom: 60px;
     display: flex;
@@ -61,10 +61,7 @@
         display: flex;
         gap: 10px;
     }
-    &__instagram,
-    &__twitter,
-    &__facebook,
-    &__linkedin{
+    &__icon{
         width: 44px;
         height: 40px;
         fill: $joinUsIcon;

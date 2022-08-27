@@ -220,18 +220,13 @@ button {
   gap: 30px;
   list-style: none;
 }
-.lorem-list__element {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 .lorem-list__text {
   font-size: 14px;
   line-height: 1.14;
   font-weight: 700;
   color: black;
   width: 270px;
+  padding-top: 30px;
 }
 .lorem-list__text--description {
   font-size: 14px;
@@ -248,7 +243,6 @@ button {
   justify-content: center;
   background-color: #F5F4FA;
   border-radius: 4px;
-  padding-bottom: 30px;
   margin: 0;
 }
 
@@ -399,7 +393,7 @@ button {
 }
 
 .container-footer {
-  width: 1600px;
+  width: 100%;
   background-color: #2F303A;
   padding-bottom: 60px;
   display: flex;
@@ -464,7 +458,7 @@ button {
   display: flex;
   gap: 10px;
 }
-.join-us__instagram, .join-us__twitter, .join-us__facebook, .join-us__linkedin {
+.join-us__icon {
   width: 44px;
   height: 40px;
   fill: white;
@@ -474,7 +468,7 @@ button {
   justify-content: center;
   align-items: center;
 }
-.join-us__instagram:hover, .join-us__instagram:focus, .join-us__twitter:hover, .join-us__twitter:focus, .join-us__facebook:hover, .join-us__facebook:focus, .join-us__linkedin:hover, .join-us__linkedin:focus {
+.join-us__icon:hover, .join-us__icon:focus {
   background-color: #2196F3;
   cursor: pointer;
   transition-property: background-color;

@@ -8,18 +8,13 @@
     align-items: center;
     gap: 30px;
     list-style: none;
-    &__element{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
     &__text{
         font-size: 14px;
         line-height: 1.14;
         font-weight: 700;
         color: $loremText;
         width: 270px;
+        padding-top: 30px;
         &--description{
             font-size: 14px;
             line-height: 1.71;
@@ -36,7 +31,6 @@
             justify-content: center;
             background-color: $loremBgColor;
             border-radius: 4px;
-            padding-bottom: 30px;
             margin: 0;
         }
 }
