@@ -283,12 +283,15 @@ button {
     list-style: none;
 }
 
+.lorem-list__element {
+    width: 270px;
+}
+
 .lorem-list__text {
     font-size: 14px;
     line-height: 1.14;
     font-weight: 700;
     color: black;
-    width: 270px;
     padding-top: 30px;
 }
 
